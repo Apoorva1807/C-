@@ -1,0 +1,15 @@
+//Typecasting
+#include<iostream>
+int main()
+{
+        using namespace std;
+        int a,d;
+        double b;
+        float c;
+        cin>>a>>b;
+        c = (float)a + (float)b;
+        d = (int)a + (int)b;
+        cout<<"The value of c:"<<c<<endl;
+        cout<<"The value of d:"<<d<<endl;
+        return 0;
+}
