@@ -1,0 +1,15 @@
+//Pointers
+#include<iostream>
+int main()
+{
+        using namespace std;
+        int *ptr;
+        int a;
+        ptr = &a;
+        cin>>a;
+        cout<<"The pointer address is:"<<ptr<<endl;
+        cout<<"The pointer value is :"<<*ptr<<endl;
+        int *p = NULL;
+        cout<<"The pointer value is:"<<p<<endl;
+        return 0;
+}
