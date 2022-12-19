@@ -1,0 +1,18 @@
+//Decrement Operators
+#include<iostream>
+using namespace std;
+int main()
+{
+        int a;
+        int b;
+        cout<<"Enter a number : \n"<<endl;
+        cin>>a;
+        cin>>b;
+        int res1 = a-- - --b;
+        int res2 = --b - --a;
+        int res3 = (--a) + b - b*a +(b--);
+        cout<<"The result is : \n"<<res1<<endl;
+        cout<<"The result is : \n"<<res2<<endl;
+        cout<<"The result is : \n"<<res3<<endl;
+        return 0;
+}
