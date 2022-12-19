@@ -1,0 +1,13 @@
+//Expression Evaluation
+#include<iostream>
+int main()
+{
+        using namespace std;
+        int x,y;
+        int a = 5;
+        x = 2+12%6-7*3/a++;
+        y = 4+10%4-2-++a;
+        cout<<"The value of x is: "<<x<<endl;
+        cout<<"The value of y is: "<<y<<endl;
+        return 0;
+}
